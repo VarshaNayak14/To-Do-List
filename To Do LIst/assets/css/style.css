@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  #myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width:100%;
+    min-height: 100%;
+  }
+    
+  .container {
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      position: absolute;
+      background-color:rgba(255, 255, 255, 0.10);
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  input{
+    width: 80%;
+    padding: 10px;
+  }
+  
+  h1 {
+      text-align: center;
+      font-size: 40px;
+      color:white;
+  }
+  
+  ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  li {
+      padding: 5px;
+      background-color: rgba(255, 255, 255, 0.20);
+      color: white;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+  }
+  #addTask{
+    padding: 10px;
+    background-color:white;
+  }
+  
+  .delete-button {
+      color: black;
+      background-color:white;
+      padding: 8px;
+      font-size: 15px;
+      cursor: pointer;
+  }
